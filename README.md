@@ -11,7 +11,7 @@ with video uploaded time as filename
 
 fetch_links.py
 This module takes the url of a YouTuber's "videos" section in their home page
-Loads all videos automatically (equivalent to keep clicking "load more")
+Loads all videos automatically (equivalent to keep clicking "load more" with AJAX)
 Collect links to each video(all the videos uploaded by that YouTuber)
 Call parse_page() from parse.py to get description for each page
 Call save_page() from parse.pu to save scraped descriptions
